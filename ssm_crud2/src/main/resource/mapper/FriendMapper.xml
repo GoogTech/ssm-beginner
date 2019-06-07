@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<!-- FriendMapper接口映射文件 -->
+<mapper namespace="pers.huangyuhui.ssm.crud.dao.FriendMapper">
+
+    <!-- 查询所有好友信息 -->
+    <select id="selectAll" resultType="friend">
+        SELECT ID, NAME, GENDER, AGE, CLAZZ, QQ, WECHAT, TELEPHONE, ADDRESS FROM ssm.tb_friend
+    </select>
+
+    <!-- 添加好友信息 -->
+    <select id="insert" parameterType="friend">
+        INSERT INTO ssm.tb_friend(NAME, GENDER, AGE, CLAZZ, QQ, WECHAT, TELEPHONE, ADDRESS)
+        VALUES(#{name},#{gender},#{age},#{clazz},#{qq},#{wechat},#{telephone},#{address})
+    </select>
+
+    <!-- 根据id查找指定好友信息 -->
+    <select id="selectById" parameterType="integer" resultType="friend">
+        SELECT ID, NAME, GENDER, AGE, CLAZZ, QQ, WECHAT, TELEPHONE, ADDRESS FROM ssm.tb_friend WHERE ID = #{value}
+    </select>
+
+    <!-- 根据id更新指定好友信息 -->
+    <select id="updateById" parameterType="friend">
+        UPDATE ssm.tb_friend SET
+        NAME=#{name}, GENDER=#{gender}, AGE=#{age}, CLAZZ=#{clazz}, QQ=#{qq},
+        WECHAT=#{wechat}, TELEPHONE=#{telephone}, ADDRESS=#{address} WHERE id = #{id}
+    </select>
+
+    <!-- 根据id删除指定好友信息 -->
+    <select id="deleteByIds" parameterType="integer[]">
+        DELETE FROM ssm.tb_friend WHERE id IN
+            <foreach collection="array" item="id" open="(" separator="," close=")">
+                #{id}
+            </foreach>
+    </select>
+
+</mapper>
