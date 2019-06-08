@@ -49,27 +49,27 @@
 ### 项目截图
 - *欢迎页面*
 
-![]()
+![](https://raw.githubusercontent.com/YUbuntu0109/SSM-CURD-Alumni/master/demonstration_picture/SSM-CURD-Alumni01.PNG)
 
 - *好友列表*
 
-![]()
+![](https://raw.githubusercontent.com/YUbuntu0109/SSM-CURD-Alumni/master/demonstration_picture/SSM-CURD-Alumni02.PNG)
 
 
 
 ### IDEA截图
 
-- *项目结构*
+- *目录结构*
 
-![]()
+![](https://raw.githubusercontent.com/YUbuntu0109/SSM-CURD-Alumni/master/demonstration_picture/Intellij-IDEA-Project-Alumni.PNG)
 
-- *文件类别(`重点呦:IDEA可不同与Eclipse !`)*
+- *目录类型(`重点呦:IDEA可不同与Eclipse !`)*
 
-![]()
+![](https://raw.githubusercontent.com/YUbuntu0109/SSM-CURD-Alumni/master/demonstration_picture/Intellij-IDEA-Folder-Alumni.PNG)
 
 - *`Jar`包依赖关系*
 
-![]()
+![](https://raw.githubusercontent.com/YUbuntu0109/SSM-CURD-Alumni/master/demonstration_picture/SSM-CRUD-Alumni-Jar.png)
 
 
 
