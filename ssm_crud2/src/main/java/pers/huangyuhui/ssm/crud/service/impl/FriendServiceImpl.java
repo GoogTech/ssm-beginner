@@ -16,7 +16,7 @@ import java.util.List;
  * @date: 6/4/2019-11:05 PM
  * @version: 1.0
  */
-@Service("studentService") //标注为Service层
+@Service
 @Transactional //添加Sping事务管理
 public class FriendServiceImpl implements FriendService {
 
