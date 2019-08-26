@@ -4,7 +4,7 @@
 ### 项目概述
 
 #### 项目介绍  (:speech_balloon: pause update)
-- *一个简单的,基于SSM的同学录小项目,通过本项目可以学习SSM的整合及CURD操作的基本思路,同时也可以帮助你学习Intellij IEAD开发利器的使用哟,可以说非常适合初学SSM的同学啦~*
+*一个简单的,基于SSM的同学录小项目,通过本项目可以学习SSM的整合及CURD操作的基本思路,同时也可以帮助你学习Intellij IEAD开发利器的使用哟,可以说非常适合初学SSM的同学啦~*
 
 *代码注释非常详细,思路也很清晰 :*
 ```java
@@ -91,10 +91,6 @@
     │
     └─ssm_crud2
         │  pom.xml
-        │  ssm_crud_alumni.iml
-        │
-        ├─.idea
-        │  │(略..)  
         │    
         │
         └─src
@@ -147,45 +143,49 @@
 ```
 
 
-#### 项目结构说明-数据库文件
+#### 项目文件说明-数据库文件
 ```
 database/ssm.sql
 ```
 
-#### 项目结构说明-数据库配置信息
+#### 项目文件说明-数据库配置信息
 ```
 ssm_crud2/src/main/resource/database-conf/c3p0.properties
 ```
 
-#### 项目结构说明-`EasyUI Framework`
+#### 项目文件说明-`EasyUI Framework`
 ```
 ssm_crud2/src/main/webapp/static/easyui/
 ```
 
-#### 项目结构说明-`Spring 核心配置文件`
+#### 项目文件说明-`Spring 核心配置文件`
 ```
 ssm_crud2/src/main/resource/spring-conf/applicationContext.xml
 ```
 
-#### 项目结构说明-`Spring MVC 核心配置文件`
+#### 项目文件说明-`Spring MVC 核心配置文件`
 ```
 ssm_crud2/src/main/resource/spring-conf/springmvc-config.xml
 ```
 
-#### 项目结构说明-`MyBatis 核心配置文件`
+#### 项目文件说明-`MyBatis 核心配置文件`
 ```
 ssm_crud2/src/main/resource/mybatis-conf/mybatis-config.xml
 ```
 
-#### 项目结构说明-`Mapper 接口映射文件`
+#### 项目文件说明-`Mapper 接口映射文件`
 ```
 ssm_crud2/src/main/resource/mapper/FriendMapper.xml
 ```
 
 
 
-*:books:更多有趣项目及详细学习笔记请前往我的个人博客哟（づ￣3￣）づ╭❤～ : https://yubuntu0109.github.io/* 
- 
-:coffee: Look forward to your contribution !
+:clock8: *`2019-8-26`回首阅读该项目源码,发现该项目中的代码让我感觉很臃肿,其可扩张性也很差哟 ! 这毕竟是我第一个`SSM`项目,所以请原谅吧嘿嘿~ 为了让你写出更加优美的代码及更加具有可扩张性的项目,这里我给出了一个简单的参考案例 ：https://github.com/YUbuntu0109/springboot-beginner/tree/refactor-190823 , 及一个可供你参考与学习的项目 : https://github.com/YUbuntu0109/springboot-shiro*
 
-:man_student: If you need any help, please contact me ~ QQ : 3083968068
+
+
+*:books:更多有趣项目及详细学习笔记请前往我的个人博客哟（づ￣3￣）づ╭❤～ : https://yubuntu0109.github.io/*
+
+*👩‍💻学习笔记已全部开源 : https://github.com/YUbuntu0109/YUbuntu0109.github.io*
+ 
+*:coffee: Look forward to your contribution, if you need any help, please contact me~ QQ : 3083968068*
